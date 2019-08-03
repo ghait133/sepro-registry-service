@@ -1,5 +1,5 @@
 ### BUILD image
-FROM maven:3-jdk-11 as builder
+FROM maven:3-jdk-8 as builder
 #Copy Custom Maven settings
 #COPY settings.xml /root/.m2/
 # create app folder for sources
