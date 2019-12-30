@@ -7,7 +7,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: 3.125.175.99
     port: ${server.port}
   client:
     registerWithEureka: false
